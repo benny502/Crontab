@@ -1,0 +1,21 @@
+{
+    "name": "benny502/crontab",
+    "type": "library",
+    "authors": [
+        {
+            "name": "benny502",
+            "email": "benny502@126.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Crontab\\": "src/"
+        }
+    },
+    "require": {
+        "visavi/crontask": "1.2.0",
+        "psr/log": "1.1.4",
+        "psr/simple-cache": "^1.0",
+        "ramsey/uuid": "^4.2"
+    }
+}
